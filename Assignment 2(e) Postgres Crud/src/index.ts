@@ -48,7 +48,6 @@ const checkAndCreateTable = async () => {
   }
 };
 
-// Ensure the table exists before handling any requests
 checkAndCreateTable();
 
 // Create
