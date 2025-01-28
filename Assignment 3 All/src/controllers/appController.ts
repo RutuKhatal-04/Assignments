@@ -1,6 +1,6 @@
 
 import { Request, Response } from "express";
-import axios from 'axios';
+import axios from 'axios'; 
 import Weather from "../models/appModel";
 
 import { Op } from "sequelize";

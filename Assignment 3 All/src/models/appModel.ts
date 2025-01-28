@@ -6,7 +6,7 @@ class Weather extends Model{
     public id!:number;
     public city!:string;
     public country!:string;
-    public weather!:string;
+    public weather!:string; 
     public readonly createdAt!:Date;
     public Latitude!:string;
     public Longitude!:string;

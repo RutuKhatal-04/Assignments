@@ -7,7 +7,7 @@ app.use(express.json())
 const PORT=8000;
 
 app.use(bodyParser.json());
-app.use("/",appRoutes)
+app.use("/",appRoutes) 
 
 
 
