@@ -52,7 +52,7 @@ export const checkPaymentPlans =async() => {
             const custOrgId=await CustOrgA.findByPk(cusorgIdData?.dataValues.CustOrgAId)
             const custId=custOrgId?.dataValues.CustomerId
             const orgId=custOrgId?.dataValues.OrganizationId
-            // Get customer and organization details using their IDs.
+            // Get customer and organization details using their IDs. 
             const custData=await Customer.findByPk(custId)
             const orgData=await Organization.findByPk(orgId)
             // Extract organization name and customer email.
